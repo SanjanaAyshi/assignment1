@@ -182,3 +182,185 @@
   justify-content: center;
   align-items: center;
 }
+.target {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+.target .flashCard {
+  margin-top: 34px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.target .flashCard .html {
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  text-align: left;
+}
+.target .flashCard .html img {
+  width: 56px;
+  height: 56px;
+}
+.target .flashCard .html .htmlContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.target .flashCard .html .htmlContent h3,
+.target .flashCard .html .htmlContent p,
+.target .flashCard .html .htmlContent h4 {
+  margin-top: 16px;
+  text-align: left;
+}
+.target .flashCard .html .htmlContent h4 {
+  text-decoration: underline;
+}
+.target .flashCard .css {
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  text-align: left;
+}
+.target .flashCard .css img {
+  width: 56px;
+  height: 56px;
+}
+.target .flashCard .css .cssContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.target .flashCard .css .cssContent h3,
+.target .flashCard .css .cssContent p,
+.target .flashCard .css .cssContent h4 {
+  margin-top: 16px;
+  text-align: left;
+}
+.target .flashCard .css .cssContent h4 {
+  text-decoration: underline;
+}
+.target .flashCard .js {
+  padding: 30px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  text-align: left;
+}
+.target .flashCard .js img {
+  width: 56px;
+  height: 56px;
+}
+.target .flashCard .js .jsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.target .flashCard .js .jsContent h3,
+.target .flashCard .js .jsContent p,
+.target .flashCard .js .jsContent h4 {
+  margin-top: 16px;
+  text-align: left;
+}
+.target .flashCard .js .jsContent h4 {
+  text-decoration: underline;
+}
+.support {
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  background: url(handshake.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-blend-mode: overlay;
+  position: relative;
+  overflow: hidden;
+  margin-top: 64px;
+}
+.support .supportContainer .title {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support .supportContainer .subtitle {
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.support .forminput .box {
+  margin-top: 16px;
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.support .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.support .form .forminput {
+  display: flex;
+}
+.support .form .forminput .submit {
+  padding: 2px 15px 2px 15px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.footer {
+  max-width: 2000px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  /* padding: 32px 60px 32px 60px; */
+  padding: 32px 150px 32px 150px;
+}
+.footer .footerTag .tag {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.footer .link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
